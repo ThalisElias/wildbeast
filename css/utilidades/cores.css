@@ -1,0 +1,43 @@
+:root {
+  --cor-bg-1: linear-gradient(135deg, #8844ee, #b07dfb);
+  --cor-bg-2: rgba(0, 0, 0, 0.1);
+  --cor-bg-3: rgba(0, 0, 0, 0.5);
+  --cor-bg-4: #fafbfc;
+  --cor-bg-5: #ffffff;
+  --cor-bg-6: #b07dfb;
+  --cor-texto-1: #ffffff;
+  --cor-texto-2: rgba(0, 0, 0, 0.3);
+  --cor-texto-3: rgba(0, 0, 0, 0.7);
+  --cor-texto-4: #b07dfb;
+}
+
+.cor-texto-1 {
+  color: var(--cor-texto-1);
+}
+.cor-texto-2 {
+  color: var(--cor-texto-2);
+}
+.cor-texto-3 {
+  color: var(--cor-texto-3);
+}
+.cor-texto-4 {
+  color: var(--cor-texto-4);
+}
+.cor-bg-1 {
+  background: var(--cor-bg-1);
+}
+.cor-bg-2 {
+  background: var(--cor-bg-2);
+}
+.cor-bg-3 {
+  background: var(--cor-bg-3);
+}
+.cor-bg-4 {
+  background: var(--cor-bg-4);
+}
+.cor-bg-5 {
+  background: var(--cor-bg-5);
+}
+.cor-bg-6 {
+  background: var(--cor-bg-6);
+}
