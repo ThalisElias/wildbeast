@@ -24,3 +24,7 @@
 .footer {
   grid-area: footer;
 }
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
