@@ -1,0 +1,71 @@
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.imagem-1 {
+  grid-row: span 2;
+  grid-row: span 2;
+  align-self: end;
+}
+.imagem-2 {
+  align-self: end;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  letter-spacing: -0.005rem;
+  color: var(--cor-texto-3);
+}
+.informacoes p + p {
+  margin-top: 30px;
+}
+
+.titulo {
+  color: var(--cor-texto-4);
+}
+.titulo h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+.titulo span {
+  font-size: 0.875rem;
+  font-style: italic;
+}
+.caracteristicas {
+  display: flex;
+  align-items: flex-start;
+}
+.caracteristicas > div {
+  width: 5rem;
+  text-align: center;
+  background: var(--cor-bg-1);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px var(--cor-shadow-1);
+  position: relative;
+}
+.caracteristicas > div:first-child {
+  margin-right: 30px;
+}
+.caracteristicas span {
+  display: block;
+  color: var(--cor-texto-4);
+}
+.numero {
+  color: var(--cor-texto-4);
+  font-size: 3rem;
+  line-break: 1;
+  margin: 10px auto;
+}
+.rotulo {
+  background: var(--cor-bg-5);
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}

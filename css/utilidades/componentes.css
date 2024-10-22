@@ -29,6 +29,10 @@
   flex-wrap: wrap;
 }
 
+.col-wide {
+  grid-column: 1/-1;
+}
+
 @media (max-width: 1200px) {
   .estrutura {
     grid-template-areas:

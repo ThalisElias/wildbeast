@@ -1,6 +1,7 @@
+/* cleancss -o ./css/style.min.css ./css/style.css */
+
 /* GLOBAL */
 @import "./global/global.css";
-@import "./global/esturura.css";
 /* INDEX */
 @import "./index/anuncios.css";
 @import "./index/content.css";
