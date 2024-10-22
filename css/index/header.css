@@ -25,3 +25,13 @@
   margin-left: 30px;
 }
 /* } todo li que viear após de um li eu quero adcionar uma margem */
+
+@media (max-width: 760px) {
+  .header {
+    justify-items: center;
+    grid-template-columns: auto;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+}
