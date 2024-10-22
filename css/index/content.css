@@ -69,3 +69,32 @@ p {
   position: relative;
   top: 2px;
 }
+.destaque {
+  font-size: 0.875rem;
+  color: var(--cor-texto-4);
+  max-width: 16rem;
+}
+.citacao,
+.atributos {
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px var(--cor-shadow-1);
+}
+.citacao p {
+  font-size: 1.35rem;
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--cor-texto-1);
+}
+.atributos li {
+  color: var(--cor-texto-1);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.125rem;
+  padding: 15px;
+}
+.atributos li + li {
+  border-top: 2px solid var(--cor-texto-4);
+}
