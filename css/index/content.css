@@ -98,3 +98,9 @@ p {
 .atributos li + li {
   border-top: 2px solid var(--cor-texto-4);
 }
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}
